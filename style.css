@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+}
+h1 {
+  color: blue;
+  text-align: center;
+  margin-top: 30px;
+}
+ul {
+  box-sizing: content-box;
+  list-style: none;
+  width: 400px;
+  margin: 0 auto;
+  border-radius: 30px;
+  line-height: 30px;
+  background-color: wheat;
+  padding: 20px 30px;
+}
+.dog {
+  color: rgb(31, 31, 54);
+  font-weight: bolder;
+}
+
+.col-4 {
+  display: inline-block;
+}

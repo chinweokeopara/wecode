@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Document</title>
+    <link rel="styesheet" href="style.css" />
+  </head>
+  <body>
+    <ul>
+      <h1 id="weather-sydney">Weather forecast</h1>
+
+      <form id="search-form">
+        <input
+          type="text"
+          placeholder="current location"
+          id="search-location"
+        />
+        <input type="text" placeholder="Enter the zip" />
+        <input type="text" placeholder="Date" id="Date-search" />
+        <br />
+        <input type="submit" value="search" id="search" />
+      </form>
+
+      <br />
+      <br />
+      <br />
+      <br />
+      <h2 id="city">Abuja, Nigeria</h2>
+      <h3 id="date">Tuesday</h3>
+      <div class="section-1">
+        <div class="row">
+          <div class="col-4 weather">36℃🌨</div>
+          <br />
+
+          <div class="abuja">
+            <div class="inline-space">
+              <td>Precipitate 5%</td>
+              <td>Humidity 16%</td>
+              <td>Wind 12k/hr</td>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br /><br /><br />
+      <div class="row">
+        <div class="col-4">Monday<span class="dog">⛅</span></div>
+        <div class="col-4">Tuesday⛈</div>
+        <div class="col-4">Wednesday🌤</div>
+        <div class="col-4">Thursday <i class="fa fa-cloud"></i></div>
+        <div class="col-4">Friday🌦</div>
+      </div>
+    </ul>
+    <script src="index.js"></script>
+  </body>
+</html>
